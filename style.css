@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   height: 100%;
-  background-color: white;
+  background-color: #f2f2f2;
   font-size: 15px;
   color: #9e9aa8;
   line-height: 26px;
@@ -39,12 +39,13 @@ button {
   padding: 0 165px;
 }
 .btn {
-  padding: 9px 24px;
+  padding: 14px 40px 12px;
   border-radius: 28px;
   background-color: #2bd0d0;
 }
 
 .btn a {
+  font-size: 20px;
   color: white;
   font-weight: 700;
 }
@@ -59,7 +60,8 @@ button {
 
 .header {
   padding-top: 48px;
-  background-color: yellow;
+  padding-bottom: 40px;
+  background-color: white;
 }
 
 .header .container {
@@ -98,4 +100,85 @@ button {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.header .btn {
+  padding: 9px 24px;
+}
+
+.header .btn a {
+  font-size: 15px;
+}
+
+.hero {
+  padding-top: 100px;
+  margin-bottom: 204px;
+  background-color: white;
+}
+
+.hero .container {
+  background-image: url("./images/girl.svg");
+  background-repeat: no-repeat;
+  background-position: right 0 top 0;
+}
+
+.hero-info {
+  max-width: 565px;
+  width: 100%;
+  margin-bottom: 54px;
+}
+
+.hero-info h1 {
+  font-weight: 700;
+  font-size: 80px;
+  letter-spacing: -2px;
+  line-height: 90px;
+  color: #34313d;
+  margin-bottom: 5px;
+}
+.hero-info p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #9e9aa8;
+  margin-bottom: 38px;
+}
+
+.hero-form {
+  padding: 52px 64px;
+  background-color: #3a3054;
+  border-radius: 10px;
+  display: flex;
+  /* align-items: center; */
+
+  justify-content: space-between;
+  gap: 24px;
+  background-image: url("./images/left-form.svg"),
+    url("./images/right-form.svg");
+  background-repeat: no-repeat;
+  background-position: left 0 bottom 0, right 0 top 0;
+  transform: translateY(84px);
+}
+
+.hero-form input {
+  border: none;
+  max-width: 769px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #34313d;
+  padding: 14px 32px;
+  font-weight: 700;
+}
+
+.hero-form .btn {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  flex-shrink: 0;
 }
