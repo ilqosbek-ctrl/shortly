@@ -182,3 +182,80 @@ button {
   border-radius: 10px;
   flex-shrink: 0;
 }
+
+.statistics header {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-bottom:100px;
+}
+
+.statistics header > h2 {
+  font-size:40px;
+  line-height:48px;
+  color:#34313d;
+  margin-bottom:18px;
+}
+
+.statistics header > p {
+  font-size:18px;
+  line-height:32px;
+  letter-spacing:0.12px;
+  color:#9e9aa8;
+  font-weight:500;
+  max-width:540px;
+  width:100%;
+  text-align:center;
+}
+
+.statistics ul {
+  display:flex;
+  align-items:center;
+  gap:30px;
+  justify-content:space-between;
+  position:relative;
+}
+
+.statistics hr {
+  width:100%;
+  height:8px;
+  background-color:#2bd0d0;
+  border:none;
+}
+
+.statistics li {
+  position:relative;
+  background-color:white;
+  padding:77px 32px 41px;
+  border-radius:5px;
+}
+
+.second-icon {
+  transform:translateY(44px);
+}
+.third-icon {
+  transform:translateY(88px);
+}
+
+.statistics .icon {
+  position:absolute;
+  width:88px;
+  height:88px;
+  border-radius:50%;
+  background-color:#3a3054;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  top:-44px;
+  left:32px;
+}
+
+.statistics h5 {
+  color:#34313d;
+  font-size:22px;
+  margin-bottom: 12px;
+}
+.statistics p {
+  font-size:15px;
+  font-weight:500;
+}
